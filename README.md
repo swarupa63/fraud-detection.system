@@ -1,12 +1,17 @@
 # 🚀 Fraud Detection System
 
 ## 📌 Overview
-This project is a simple Fraud Detection System built using FastAPI. It allows users to input transaction details and checks whether it is fraud or normal.
+This project is a simple **Fraud Detection System** built using **FastAPI**.  
+It allows users to input transaction details and checks whether it is **Fraud or Normal**.
+
+---
 
 ## 🛠 Tech Stack
 - Backend: FastAPI (Python)
 - Frontend: HTML, CSS, JavaScript
 - Database: SQLite
+
+---
 
 ## ⚙️ Features
 - User input form
@@ -14,24 +19,32 @@ This project is a simple Fraud Detection System built using FastAPI. It allows u
 - Data stored in database
 - Real-time result display
 
+---
+
 ## 🔄 Workflow
 Frontend → FastAPI Backend → SQLite Database → Response
 
+---
+
+## 📸 Screenshot
+
+### Home Page
+![Home Page](backend/screenshots/home.png)
+---
+
 ## ▶️ How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
 
-2. Run backend:
-   python -m uvicorn main:app --reload
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
 
-3. Open frontend.html in browser
+### 🚀 Future Enhancements
+Docker containerization
+CI/CD (GitHub Actions)
+Redis caching
+PostgreSQL database
+Machine Learning model
 
-## 🚀 Future Enhancements
-- Docker containerization
-- CI/CD (GitHub Actions)
-- Redis caching
-- PostgreSQL database
-- Machine Learning model
 
-## 👩‍💻 Author
+### 👩‍💻 Author
 Swarupa Bagawade
